@@ -22,3 +22,21 @@ With this project I wanna demonstrate how to build a simple question-answering s
 ```bash
 pip install uv
 ```
+```bash
+uv init
+```
+```bash
+uv sync
+```
+
+2. **Set your API key** in a .env file (note that you have to introduce your api key without commas):
+
+```bash
+cp .env.sample .env
+GOOGLE_API_KEY=your_api_key_here
+```
+
+[Google Gemini](https://aistudio.google.com/apikey)
+
+
+
